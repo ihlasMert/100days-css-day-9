@@ -1,0 +1,38 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #1a2238;
+  color: #394568;
+}
+
+.moon {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #f6edbd;
+  overflow: hidden;
+  box-shadow: 10px 20px 60px 0 #f6edbd;
+  top: 50px;
+  left: 75px;
+  animation: rise 2s ease-out;
+}
+@keyframes rise {
+  0% {
+    top: 400px;
+    left: -100px;
+  }
+}
+.crater{
+    position: absolute;
+    border-radius: 50%;
+    background: #ece1a8;
+}
